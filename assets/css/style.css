@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-12 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.d-flex {
+    display: flex;
+}
+
+.flex-direction-coloumn {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.align-item-center {
+    display: flex;
+    align-items: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+body {
+    background-image: url(/assets/image/img-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon {
+    position: relative;
+}
+nav{
+    position: relative;
+    z-index: 1;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+
+.btn-1 {
+    width: 181.94px;
+    height: 53.42px;
+    padding: 14px 34px 14px 34px;
+    border-radius: 79px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.first-text {
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+}
+
+nav ul li a {
+    font-family: Josefin Sans;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: #fff;
+}
+
+.pr-10 {
+    padding-right: 8px;
+}
+
+/*===========flex-grow================*/
+.heading {
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 91.8px;
+    text-align: left;
+    color: white;
+}
+
+.pl-35 {
+    padding-left: 35px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+/*=========card-2===============*/
+.card-2 {
+    border-radius: 8px;
+    border: 1px;
+    border: 1px solid;
+    border-image-source: linear-gradient(139.17deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.06) 100%);
+    background: linear-gradient(139.51deg, rgba(255, 255, 255, 0.1) -0.66%, rgba(255, 255, 255, 0.03) 100%);
+    margin-top: 60px;
+    backdrop-filter: blur(30px);
+    position: relative;
+
+}
+
+.line {
+    position: relative;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 2px;
+    background-color: rgb(11, 169, 232);
+    bottom: 0;
+    left: 0;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background-color: white;
+    bottom: 0;
+    right: 0;
+}
+
+.border-bottom {
+    border-bottom: 1px solid white;
+}
+
+.heading-2 {
+    font-family: Josefin Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    padding: 20px 17px;
+    color: white;
+
+}
+
+.number {
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #1BABFE;
+    padding: 16px 14px;
+}
+
+.para {
+    font-family: Josefin Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+    color: white;
+}
+
+.date {
+    font-family: Josefin Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    padding: 24px 16px;
+    color: white;
+}
+
+.svg {
+    padding-left: 17px;
+}
+
+.token {
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: white;
+    padding-left: 8px;
+    margin: 25px 0px 25px 0px;
+}
+
+.svg-2 {
+    padding-left: 17px;
+}
+
+.token-2 {
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: white;
+    padding-left: 8px;
+    margin: 25px 0px 25px 0px;
+}
+
+.left-heading {
+    font-family: Josefin Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: rgb(209, 207, 207);
+    padding: 10px 17px;
+    margin-top: 10px;
+
+}
+
+
+
+.number-2 {
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding-left: 17px;
+    margin-bottom: 10px;
+
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.line-2 {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.line-2::after {
+    content: "";
+    border-right: 0.4px solid #8c8c8c;
+    position: absolute;
+    height: 80px;
+    width: 10px;
+
+}
+
+.btn-2 {
+    width: 230.94px;
+    height: 53.42px;
+    padding: 14px 34px 14px 34px;
+    border-radius: 79px;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(149.67deg, #815CC8 29.44%, #1BABFE 81.54%);
+ 
+}
+.btn-1:hover{
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+}
+.btn-2:hover {
+    box-shadow: 0px 8px 30px 0px #1BABFE;
+}
+
+/*===========responsive-nav===============*/
+@media (min-width:992px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (max-width:992px) {
+    .menuLink {
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        transition: all 200ms linear;
+        line-height: 50px
+    }
+
+    label[for="menuIcon"] {
+        width: 40px;
+        height: 25px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 1;
+    }
+
+    label[for="menuIcon"] span {
+        width: 100%;
+        height: 5px;
+        background-color: red;
+        border-radius: 3px;
+        transition: all 200ms linear;
+    }
+
+    input:checked~.menuLink {
+        right: 0;
+    }
+
+    input:checked~label[for="menuIcon"] span:first-child {
+        transform: rotate(30deg);
+        transform-origin: left;
+    }
+
+    input:checked~label[for="menuIcon"] span:last-child {
+        transform: rotate(-30deg);
+        transform-origin: left;
+    }
+
+    input:checked~label[for="menuIcon"] span:nth-child(2) {
+        transform: translateX(-40px);
+        opacity: 0;
+        visibility: hidden;
+    }
+}
